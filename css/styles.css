@@ -27,6 +27,12 @@ body p {
     margin-right: 10px;
 }
 
+@media (max-width:480px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-right: 0px;
+    }
+}
+
 .navbar .navbar-nav .nav-item.active .nav-link {
     color: #005AA1;
 }
