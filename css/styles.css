@@ -224,3 +224,9 @@ section h2 {
     margin-bottom: 15px;
 }
 
+.navbar-toggler{
+    color: #005AA1 !important;
+    border: 1px solid transparent !important;
+    font-size: 22px;
+}
+
