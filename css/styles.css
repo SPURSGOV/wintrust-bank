@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter&family=Nunito:wght@300&family=Poppins:wght@300;400&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+body p {
+    color: #434b52;
+    line-height: 1.8em;
+    font-size: 17px;
+}
+
+.header {
+  background: #005AA1;
+}
+
+.social-links a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #005AA1;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #005AA1;
+}
+
+.banner-area {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/banking-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 150px;
+}
+
+.btn-secure {
+    background-color: white;
+    color: #005AA1;
+    font-size: 12px;
+    border: 1px solid white;
+}
+
+.btn-secure:hover {
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+
+.btn-secure span {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.btn-know-more {
+    background: #005AA1;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid #005AA1;
+}
+
+.btn-know-more:hover {
+    background: white;
+    color: #005AA1;
+}
+
+section h2 {
+    color: #005AA1;
+}
+
+.what-offer .what-head {
+    font-size: 16px;
+}
+
+.what-area {
+    background-color: #dce7f0;
+    padding: 20px;
+}
+
+.what-area .icon-area {
+    border: 3px solid #005AA1;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 45px;
+    color: #434b52;
+}
+
+.what-area:hover .icon-area {
+    color: white;
+    background: #005AA1;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.what-area h6 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.what-area p {
+    font-size: 16px;
+    color: grey;
+}
+
+.why-choose {
+    background: #005AA1;
+}
+
+.why-choose p {
+    font-size: 16px;
+}
+
+.btn-submit {
+    border-radius: 0px;
+    border: 1px solid #005AA1;
+    color: white;
+    background: #005AA1;
+}
+
+.btn-submit:hover {
+    color: #005AA1;
+    background: transparent;
+}
+
+.contact-info {
+    color: #005AA1;
+}
+
+.footer-area {
+    background-color: #151616;
+}
+
+.foot-text {
+    color: grey;
+    font-size: 15px;
+}
+
+.foot-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.foot-list li a {
+    color: grey;
+    text-decoration: none;
+    line-height: 2.5em;
+}
+
+.foot-list li a:hover {
+    color: #005AA1;
+}
+
+.copyright {
+    color: grey;
+    font-size: 14px;
+}
+
+.foot-social {
+    color: white;
+}
+
+.foot-social:hover {
+    color: #005AA1
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #005AA1;
+    color: white;
+    cursor: pointer;
+    padding: 10px 17px 10px 17px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .other-banners {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bank-oth-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 100px;
+}
+
+.mission-list li {
+    line-height: 2em;
+    color: #434b52;
+    font-size: 16px;
+}
+
+.mission-head {
+    margin-left: 20px;
+}
+
+.sponsor-head {
+    color: #005AA1;
+}
+
+.sponsor-text {
+    font-size: 15px;
+}
+
+.wealth-list li {
+    font-size: 17px;
+    line-height: 2em;
+    margin-bottom: 15px;
+}
+
